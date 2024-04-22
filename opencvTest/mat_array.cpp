@@ -25,7 +25,7 @@ int main()
 	src6 = cv::Mat(480, 640, CV_8UC1, cv::Scalar(128));
 	
 	// 640 * 480, 0값으로 초기화 된 영상
-
+	//123132213131
 	cv::Mat src7;
 	src7 = cv::Mat::zeros(cv::Size(640, 480), CV_8UC1);
 
