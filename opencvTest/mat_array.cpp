@@ -1,11 +1,7 @@
-﻿// opencvTest.cpp : 이 파일에는 'main' 함수가 포함됩니다. 거기서 프로그램 실행이 시작되고 종료됩니다.
-//
-
-#include <iostream>
+﻿#include <iostream>
 #include <opencv2/opencv.hpp>
 
 //CV:MAT클래스는 행렬(Matrix)를 표현하기 위한 클래스
-
 
 int main() 
 {
@@ -25,7 +21,6 @@ int main()
 	src6 = cv::Mat(480, 640, CV_8UC1, cv::Scalar(128));
 	
 	// 640 * 480, 0값으로 초기화 된 영상
-	//123132213131112131212312312321211212312121212312
 	cv::Mat src7;
 	src7 = cv::Mat::zeros(cv::Size(640, 480), CV_8UC1);
 
